@@ -19,4 +19,14 @@
     <servlet-name>AddDepartment</servlet-name>
     <url-pattern>/AddDepartment</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestHeaderInfoServlet</display-name>
+    <servlet-name>RequestHeaderInfoServlet</servlet-name>
+    <servlet-class>com.cr7.HearderInfo.RequestHeaderInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestHeaderInfoServlet</servlet-name>
+    <url-pattern>/RequestHeaderInfoServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
