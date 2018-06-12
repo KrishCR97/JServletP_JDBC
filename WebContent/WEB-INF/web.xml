@@ -29,4 +29,24 @@
     <servlet-name>RequestHeaderInfoServlet</servlet-name>
     <url-pattern>/RequestHeaderInfoServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConfigContextTest</display-name>
+    <servlet-name>ConfigContextTest</servlet-name>
+    <servlet-class>com.cr7.HearderInfo.ConfigContextTest</servlet-class>
+    <init-param>
+      <description>Test param</description>
+      <param-name>Test</param-name>
+      <param-value>1.23</param-value>
+    </init-param>
+    <init-param>
+      <description>,md</description>
+      <param-name>Test2</param-name>
+      <param-value>123</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConfigContextTest</servlet-name>
+    <url-pattern>/ConfigContextTest</url-pattern>
+  </servlet-mapping>
 </web-app>
